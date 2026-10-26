@@ -4,14 +4,14 @@
 
 本项目为非官方索引，不代表北京邮电大学或任何学院、教师、团队。我们整理原始链接和简短说明，不镜像原仓库，不搬运课程资料或代码；收录不代表原作者参与维护本索引，也不构成学校认可或质量背书。
 
-欢迎各学院、各年级的同学参与。目前条目集中于计算机学院，不代表已经覆盖全校。
+欢迎各学院、各年级的同学参与，共同补充课程学习、校园生活与学术写作等资源。现有条目仍有限，不代表已经覆盖全校。
 
 ## 分类导航
 
 | 分类 | 收录范围 |
 | --- | --- |
 | [课程资料](#courses) | 课程索引、学习笔记、课程设计、选课经验与公开学习资料 |
-| [科研项目](#research) | 有明确北邮关联的论文代码、实验复现与科研工具 |
+| [科研项目](#research) | 有明确北邮关联的论文代码、实验复现、科研工具与学术写作资源 |
 | [学生项目](#student-projects) | 学生个人或团队的独立作品、社团项目与毕业设计 |
 | [校园工具](#campus-tools) | 面向北邮校园学习、生活与信息服务的工具 |
 | [竞赛](#competitions) | 可公开分享的竞赛项目、题解、经验与训练资源 |
@@ -25,21 +25,32 @@
 | --- | --- | --- | --- |
 | [brupst/awesome-bupt-scs](https://github.com/brupst/awesome-bupt-scs) | 北京邮电大学计算机学院本科编程作业索引；作为课程编程作业参考项目的入口。 | 编程作业索引 | [原仓库 README](https://github.com/brupst/awesome-bupt-scs/blob/master/README.md) 自述面向北邮计算机学院本科课程。 |
 | [oneliey/BUPT-SCS-Courses](https://github.com/oneliey/BUPT-SCS-Courses) | BUPT SCS 选修课指北；作为计算机学院选课信息与经验的入口。 | 选课指南 | [原仓库 README](https://github.com/oneliey/BUPT-SCS-Courses/blob/master/README.md) 自述为北邮计算机学院选修课指北。 |
+| [byrdocs/byrdocs-archive](https://github.com/byrdocs/byrdocs-archive) | 北邮课程相关资料的检索入口与元信息存档；通过 [BYR Docs](https://byrdocs.org/) 使用，平台说明仅面向北邮在校生。 | 资料检索入口 | [原仓库 README](https://github.com/byrdocs/byrdocs-archive/blob/master/README.md) 自述为北邮校内资料分享平台。 |
 
 **地址说明：** 第二个仓库的用户名是 `oneliey`。初始文字中提供的 [oneliev/BUPT-SCS-Courses](https://github.com/oneliev/BUPT-SCS-Courses) 在 2026-10-21 访问时返回 404；本表依据原始截图及第一个仓库 README 中的交叉链接，更正为上面的地址。
 
-**信息边界：** 2026-10-21 仅核对了上述仓库入口、简介、README 及公开许可声明，未逐项核验下游资源、运行代码或确认课程信息仍适用于当前培养方案。北邮关联依据来自项目公开自述，不是对作者身份或学校授权的认证。课程安排以学校当年发布的信息为准。
+**信息边界：** 首批两条资源于 2026-10-21 核对，BYR Docs 于 2026-10-26 核对。检查限于仓库入口、简介、README 及公开许可声明，未逐项核验下游资源、运行代码或确认课程信息仍适用于当前培养方案。北邮关联依据来自项目公开自述，不是对作者身份或学校授权的认证。课程安排以学校当年发布的信息为准。
 
 **授权记录：**
 
 - `brupst/awesome-bupt-scs`：[LICENSE](https://github.com/brupst/awesome-bupt-scs/blob/master/LICENSE) 为 MIT 文本，而 [README 的协议说明](https://github.com/brupst/awesome-bupt-scs/blob/master/README.md#协议) 将贡献者编写部分标为 CC BY-NC 4.0，其他部分归各自作者。两处声明的适用范围需向原维护者核实；本索引不将其统一认定为 MIT，也不推断下游项目采用相同许可。
 - `oneliey/BUPT-SCS-Courses`：本次未确认完整许可及适用范围，暂记为“授权信息待核实”，仅提供入口，不据此认定可转载或改编。
+- `byrdocs/byrdocs-archive`：仓库 [LICENSE](https://github.com/byrdocs/byrdocs-archive/blob/master/LICENSE) 为 CC BY-NC-SA 4.0；仅收录元信息存档和原平台入口，不据此认定平台中所有教材、试题或其他资料采用相同许可，也不转载其中的文件。
 
 <a id="research"></a>
 
 ## 科研项目
 
-暂无条目。欢迎补充有公开关联依据的论文代码、复现项目或科研工具，并注明对应论文或团队主页。
+| 资源 | 简介 | 子分类 | 北邮关联依据 / 来源 |
+| --- | --- | --- | --- |
+| [BYRIO/BUPTBachelorThesis](https://github.com/BYRIO/BUPTBachelorThesis) | 北邮本科学士学位论文 LaTeX 模板维护分支；README 标明最新发行版为 2025-04-18，使用前需核对当年毕业设计格式要求。 | 本科论文排版 | [README](https://github.com/BYRIO/BUPTBachelorThesis/blob/master/README.md) 说明面向北邮本科毕业设计；该仓库为 [sheng-qiang/BUPTBachelorThesis](https://github.com/sheng-qiang/BUPTBachelorThesis) 的维护分支，因有后续修订而收录。 |
+| [csjjfu/BUPTGraduateThesisLatexTemplate](https://github.com/csjjfu/BUPTGraduateThesisLatexTemplate) | 北邮硕士、博士学位论文 LaTeX 模板，提供 Overleaf 与本地 XeLaTeX 使用说明，README 包含 2026 年修订记录。 | 硕博论文排版 | [README](https://github.com/csjjfu/BUPTGraduateThesisLatexTemplate/blob/master/README.md) 说明其依据北邮硕博论文模板制作并持续调整。 |
+
+**来源、许可与时效：**
+
+- `BYRIO/BUPTBachelorThesis`：原仓库 [LICENSE](https://github.com/BYRIO/BUPTBachelorThesis/blob/master/LICENSE) 为 MIT。保留其上游来源和维护分支身份，不将本索引描述为模板原作者。
+- `csjjfu/BUPTGraduateThesisLatexTemplate`：原仓库 [LICENSE](https://github.com/csjjfu/BUPTGraduateThesisLatexTemplate/blob/master/LICENSE) 为 GNU GPL v3，具体适用范围以原项目声明为准。
+- 两项资源核对日期均为 2026-10-26，仅核对仓库、README 和许可文本，未实际编译或核验当前学校全部格式要求。它们均不应被视为学校官方模板的替代认证。
 
 <a id="student-projects"></a>
 
@@ -51,7 +62,11 @@
 
 ## 校园工具
 
-暂无条目。欢迎补充面向北邮师生的公开工具，并注明适用场景、使用条件及已知限制。
+| 资源 | 简介 | 子分类 | 北邮关联依据 / 来源 |
+| --- | --- | --- | --- |
+| [byrdocs/bupt-survival-guide](https://github.com/byrdocs/bupt-survival-guide) | 非官方北邮校园生活指南，涵盖沙河与本部的住宿、餐饮、交通、学习与生活服务；可从 [指南网站](https://guide.byrdocs.org/) 阅读。 | 校园生活指南 | [README](https://github.com/byrdocs/bupt-survival-guide/blob/main/README.md) 明确面向北邮学生，列有内容来源和致谢。 |
+
+**来源、许可与时效：** 原仓库 [LICENSE](https://github.com/byrdocs/bupt-survival-guide/blob/main/LICENSE) 为 CC BY-NC-SA 4.0，内容来源与素材例外以原项目声明为准。本索引仅提供链接。2026-10-26 核对了仓库、README、许可与近期提交；未逐项实地核验指南中的校园服务信息，具体安排以学校最新通知为准。
 
 <a id="competitions"></a>
 
