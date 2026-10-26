@@ -1,6 +1,6 @@
 # BUPT Open Index · 北邮开源与学习资源索引
 
-一个由社区维护的北京邮电大学相关资源入口，从课程资料起步，逐步整理科研项目、学生项目、校园工具、竞赛资源和数据集。
+一个由社区维护的北京邮电大学相关资源入口，从课程资料起步，逐步整理导师与升学经验、科研项目、学生项目、校园工具、竞赛资源和数据集。
 
 本项目为非官方索引，不代表北京邮电大学或任何学院、教师、团队。我们整理原始链接和简短说明，不镜像原仓库，不搬运课程资料或代码；收录不代表原作者参与维护本索引，也不构成学校认可或质量背书。
 
@@ -11,6 +11,7 @@
 | 分类 | 收录范围 |
 | --- | --- |
 | [课程资料](#courses) | 课程索引、学习笔记、课程设计、选课经验与公开学习资料 |
+| [导师与升学](#mentors) | 导师选择经验、历史口碑线索与升学参考 |
 | [科研项目](#research) | 有明确北邮关联的论文代码、实验复现、科研工具与学术写作资源 |
 | [学生项目](#student-projects) | 学生个人或团队的独立作品、社团项目与毕业设计 |
 | [校园工具](#campus-tools) | 面向北邮校园学习、生活与信息服务的工具 |
@@ -26,16 +27,28 @@
 | [brupst/awesome-bupt-scs](https://github.com/brupst/awesome-bupt-scs) | 北京邮电大学计算机学院本科编程作业索引；作为课程编程作业参考项目的入口。 | 编程作业索引 | [原仓库 README](https://github.com/brupst/awesome-bupt-scs/blob/master/README.md) 自述面向北邮计算机学院本科课程。 |
 | [oneliey/BUPT-SCS-Courses](https://github.com/oneliey/BUPT-SCS-Courses) | BUPT SCS 选修课指北；作为计算机学院选课信息与经验的入口。 | 选课指南 | [原仓库 README](https://github.com/oneliey/BUPT-SCS-Courses/blob/master/README.md) 自述为北邮计算机学院选修课指北。 |
 | [byrdocs/byrdocs-archive](https://github.com/byrdocs/byrdocs-archive) | 北邮课程相关资料的检索入口与元信息存档；通过 [BYR Docs](https://byrdocs.org/) 使用，平台说明仅面向北邮在校生。 | 资料检索入口 | [原仓库 README](https://github.com/byrdocs/byrdocs-archive/blob/master/README.md) 自述为北邮校内资料分享平台。 |
+| [Acechann/BUPT-elective-course](https://github.com/Acechann/BUPT-elective-course) | 北邮公选课选课建议，汇集同学提供的得分、上课与考核情况，仓库提供 Excel 表；README 记录为 2026 年 1 月整理，具体教师与考核方式可能变化。 | 公选课经验 | [README](https://github.com/Acechann/BUPT-elective-course/blob/main/README.md) 说明面向北邮公选课，内容来自学生投稿与整理。 |
 
 **地址说明：** 第二个仓库的用户名是 `oneliey`。初始文字中提供的 [oneliev/BUPT-SCS-Courses](https://github.com/oneliev/BUPT-SCS-Courses) 在 2026-10-21 访问时返回 404；本表依据原始截图及第一个仓库 README 中的交叉链接，更正为上面的地址。
 
-**信息边界：** 首批两条资源于 2026-10-21 核对，BYR Docs 于 2026-10-26 核对。检查限于仓库入口、简介、README 及公开许可声明，未逐项核验下游资源、运行代码或确认课程信息仍适用于当前培养方案。北邮关联依据来自项目公开自述，不是对作者身份或学校授权的认证。课程安排以学校当年发布的信息为准。
+**信息边界：** 首批两条资源于 2026-10-21 核对，BYR Docs 与公选课建议于 2026-10-26 核对。公选课数据为学生提供的经验样本，不代表全部课程或学生情况。检查限于仓库入口、简介、README 及公开许可声明，未逐项核验下游资源、运行代码或确认课程信息仍适用于当前培养方案。北邮关联依据来自项目公开自述，不是对作者身份或学校授权的认证。课程安排以学校当年发布的信息为准。
 
 **授权记录：**
 
 - `brupst/awesome-bupt-scs`：[LICENSE](https://github.com/brupst/awesome-bupt-scs/blob/master/LICENSE) 为 MIT 文本，而 [README 的协议说明](https://github.com/brupst/awesome-bupt-scs/blob/master/README.md#协议) 将贡献者编写部分标为 CC BY-NC 4.0，其他部分归各自作者。两处声明的适用范围需向原维护者核实；本索引不将其统一认定为 MIT，也不推断下游项目采用相同许可。
 - `oneliey/BUPT-SCS-Courses`：本次未确认完整许可及适用范围，暂记为“授权信息待核实”，仅提供入口，不据此认定可转载或改编。
 - `byrdocs/byrdocs-archive`：仓库 [LICENSE](https://github.com/byrdocs/byrdocs-archive/blob/master/LICENSE) 为 CC BY-NC-SA 4.0；仅收录元信息存档和原平台入口，不据此认定平台中所有教材、试题或其他资料采用相同许可，也不转载其中的文件。
+- `Acechann/BUPT-elective-course`：本次未确认明确的许可证及适用范围，暂记为“授权信息待核实”；仅收录原仓库入口，不转载表格或学生评价。
+
+<a id="mentors"></a>
+
+## 导师与升学
+
+| 资源 | 简介 | 子分类 | 北邮关联依据 / 来源 |
+| --- | --- | --- | --- |
+| [wukongbajie/BUPTNiceMentors](https://github.com/wukongbajie/BUPTNiceMentors) | 北邮研究生导师口碑的历史整理与学生讨论入口；正文较早，README 引导读者查看 [后续讨论](https://github.com/wukongbajie/BUPTNiceMentors/issues/5)。用于收集提问与进一步了解的线索。 | 导师选择经验 / 历史参考 | [README](https://github.com/wukongbajie/BUPTNiceMentors/blob/master/README.md) 自述为学生视角的北邮研究生导师口碑榜，并注明内容源自北邮人论坛讨论。 |
+
+**来源、许可与时效：** 2026-10-26 核对了仓库、README 和讨论入口。仓库最近推送时间为 2017-11-20；讨论区存在 2026 年留言，但这不表示正文或整份名单已得到更新。评价属于发帖者的个人经验，未由本索引核实，不作为对具体导师现状的事实认定、排名或学校背书。本次未确认明确的许可证及适用范围，仅提供来源链接，不转载对个人的评价。选择导师时，应结合近期研究方向、培养安排与多方沟通自行判断。
 
 <a id="research"></a>
 
@@ -65,8 +78,12 @@
 | 资源 | 简介 | 子分类 | 北邮关联依据 / 来源 |
 | --- | --- | --- | --- |
 | [byrdocs/bupt-survival-guide](https://github.com/byrdocs/bupt-survival-guide) | 非官方北邮校园生活指南，涵盖沙河与本部的住宿、餐饮、交通、学习与生活服务；可从 [指南网站](https://guide.byrdocs.org/) 阅读。 | 校园生活指南 | [README](https://github.com/byrdocs/bupt-survival-guide/blob/main/README.md) 明确面向北邮学生，列有内容来源和致谢。 |
+| [Durden-T/BUPTtakeCourse](https://github.com/Durden-T/BUPTtakeCourse) | 本科自动选课脚本，原项目说明覆盖必修、选修和公选课；作为历史工具入口收录，README 标明最后测试时间为 2021-03-04，当前教务系统兼容性未实测。 | 本科选课工具 / 历史参考 | [README](https://github.com/Durden-T/BUPTtakeCourse/blob/main/README.md) 明确说明适用于北邮本科教务系统选课。 |
 
-**来源、许可与时效：** 原仓库 [LICENSE](https://github.com/byrdocs/bupt-survival-guide/blob/main/LICENSE) 为 CC BY-NC-SA 4.0，内容来源与素材例外以原项目声明为准。本索引仅提供链接。2026-10-26 核对了仓库、README、许可与近期提交；未逐项实地核验指南中的校园服务信息，具体安排以学校最新通知为准。
+**来源、许可与时效：**
+
+- `byrdocs/bupt-survival-guide`：原仓库 [LICENSE](https://github.com/byrdocs/bupt-survival-guide/blob/main/LICENSE) 为 CC BY-NC-SA 4.0，内容来源与素材例外以原项目声明为准。本索引仅提供链接。2026-10-26 核对了仓库、README、许可与近期提交；未逐项实地核验指南中的校园服务信息，具体安排以学校最新通知为准。
+- `Durden-T/BUPTtakeCourse`：2026-10-26 核对了仓库与 README；仓库最近推送时间为 2021-03-06，原作者注明的最后测试时间为 2021-03-04。本索引未运行脚本，也未确认其仍适配当前教务系统；仅作为历史参考收录。本次未确认明确的许可证及适用范围，暂记为“授权信息待核实”，不转载代码。
 
 <a id="competitions"></a>
 
@@ -111,6 +128,6 @@
 
 初期所有条目集中在此 README，贡献规范放在 `CONTRIBUTING.md`，提交模板放在 `.github/`，无需建立空分类目录。
 
-条目增多后，可逐步拆分到 `resources/courses.md`、`resources/research.md`、`resources/student-projects.md`、`resources/campus-tools.md`、`resources/competitions.md` 和 `resources/datasets.md`；届时 README 保留分类导航，并将原章节改为对应链接，避免两处重复维护。
+条目增多后，可逐步拆分到 `resources/courses.md`、`resources/mentors.md`、`resources/research.md`、`resources/student-projects.md`、`resources/campus-tools.md`、`resources/competitions.md` 和 `resources/datasets.md`；届时 README 保留分类导航，并将原章节改为对应链接，避免两处重复维护。
 
 感谢原作者与贡献者的公开分享。支持原项目时，请前往其仓库反馈、贡献或 Star。
